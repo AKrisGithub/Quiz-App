@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/Info.css">
+    <title>Spectrum-Quiz</title>
+</head>
+
+<body>
+    <aside>
+        <figure>
+            <div id="avatar">
+
+            </div>
+            <figcaption>By Aditya Krishna</figcaption>
+        </figure>
+        <img src="../Images/Group 1.svg">
+        <nav>
+            <ul>
+                <li><a href="../Html/Home.html">Quiz</a></li>
+                <li><a href="../Html/Info.html">Info</a></li>
+                <li><a href="../Html/Scripts.html">Scripts</a></li>
+
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h1>Info</h1>
+        <p style="font-size: 15px" style="font-weight: 600">This Website Was Made By Aditya Krishna. It Was programed In
+            Css , HTML & JavaScript.
+            It
+            Took Me 5 Days To
+            Complete This.</p>
+        <hr style="color: black">
+        <br>
+        <br>
+        <h1>Translation</h1>
+        <p style="font-size: 15px">यह वेबसाइट आदित्य कृष्णा द्वारा बनाई गई थी। यह सीएसएस, एचटीएमएल और जावास्क्रिप्ट में
+            प्रोग्राम किया गया था। यह मुझे 5 दिन लग गए इसे पूरा करें।</p>
+    </main>
+
+
+    <script>
+        (function () {
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+
+            menulink.addEventListener('click', function (e) {
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });
+        })();
+    </script>
+</body>
+
+</html>
