@@ -1,1 +1,1 @@
-# Quiz-App In JS By Aditya Krishna
+# Quiz-App In JS 
